@@ -1,0 +1,67 @@
+<!DOCtype>
+<html>
+	<header>
+		<meta charset="utf-8">
+		<title>Equação do segundo grau</title>
+		<style>
+		.main{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.form{
+			display: flex;
+			flex-direction: column;
+			width: 50%;
+			height: 250px;
+			justify-content: center;
+			align-items: center;
+			border: solid 1px #000;
+		}
+		.results{
+			display: flex;
+			flex-direction: row;
+			width: 50%;
+			height: 100px;
+			margin-top: 10px;
+			justify-content: space-around;
+			align-items: center;
+			border: solid 1px #000;
+		}
+		.inputs{
+			height: 40px;
+			width: 200px;
+			border-radius: 8px;
+			margin-bottom: 10px
+		}
+		.button{
+			height: 40px;
+			width: 100px;
+			border-radius: 8px;
+			background-color: #fff000
+		}
+		.value{
+			display: flex;
+
+		}
+		.text{
+			font-size: 20pt;
+		}
+		</style>
+	</header>
+	<body>
+		<main class="main">
+			<article class="form">
+				<input class="inputs" type="text" id="a" placeholder="Valor de A" />
+				<input class="inputs" type="text" id="b" placeholder="Valor de B"/>
+				<input class="inputs" type="text" id="c" placeholder="Valor de C"/>
+				<button id="button" class="button">Calcular</button>
+			</article>
+			<article class="results" id="results">
+				
+			</article>
+		</main>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+</html>
